@@ -17,7 +17,7 @@ word = "SEE", -> returns true,
 word = "ABCB", -> returns false.
 */
 
-public class LC79WordSearch {
+public class Solution {
 
     public boolean exist(char[][] board, String word) {
         for (int i=0; i<board.length; i++) {
